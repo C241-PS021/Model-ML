@@ -28,7 +28,7 @@ The model is a Convolutional Neural Network (CNN) designed to classify images of
 
 ### Training
 
-The model is trained on a dataset of images that are split into training and testing sets. Data augmentation is applied to the training images to improve the model's generalization.
+The model is trained on a dataset of images that are split into training and testing sets (you can check at [Fruit-Vegetables-Dataset](https://github.com/C241-PS021/Fruits-Vegetables-Dataset)). Data augmentation is applied to the training images to improve the model's generalization.
 
 ### TensorFlow Lite Model
 
@@ -38,10 +38,11 @@ The trained model is converted to TensorFlow Lite format (`fruit_vegetable_class
 
 ### Step-by-Step Instructions
 
-1. **Clone the Repository**
+1. **Clone the Model and Dataset Repository**
 
 ```shell
 git clone https://github.com/C241-PS021/Model-ML.git
+git clone https://github.com/C241-PS021/Fruits-Vegetables-Dataset.git
 ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
